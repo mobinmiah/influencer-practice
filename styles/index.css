@@ -135,7 +135,7 @@ nav .nav-links li a {
 /* collection section styles */
 .collections {
     max-width: 100%;
-    margin: 120px auto;
+    margin: 100px auto;
     justify-items: center;
 }
 
@@ -201,4 +201,36 @@ nav .nav-links li a {
     font-weight: 700;
     font-size: 14px;
     color: #5E6366;
+}
+
+/* featured styles */
+.featured {
+    width: 100%;
+}
+
+.featured-container {
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    max-width: 100%;
+    margin: 50px auto;
+}
+.featured-img{
+    max-width: 100%;
+}
+.featured-content{
+    max-width: 100%;
+}
+.featured-title{
+    font-family: var(--poppins);
+    font-weight: 700;
+    font-size: 2.5rem;
+    color: #0A0826;
+}
+.featured-description{
+    font-family: var(--poppins);
+    font-weight: 700;
+    font-size: 1.25rem;
+    color: #6C6C6C;
+    max-width: 500px;
 }
