@@ -21,6 +21,11 @@
     --main-color: #E02C6D;
 }
 
+section{
+    max-width: 1140px;
+    margin: 50px auto;
+}
+
 .btn{
     background-color: var(--main-color);
     color: #fff;
@@ -82,7 +87,7 @@ nav .nav-links li a {
     display: flex;
     justify-content: space-between;
     align-items: center;
-    margin-top: 100px;
+    margin: 50px auto;
 }
 
 .hero-content {
@@ -105,4 +110,14 @@ nav .nav-links li a {
 }
 .hero-image img{
     background: url(../images/Circle-design.svg);
+}
+
+/* sponsor section styles */
+.sponsors{
+    display: grid;
+    grid-template-columns: repeat(7, 1fr);
+    max-width: 70%;
+    border-top: 1px solid #e9e6e6;
+    border-bottom: 1px solid #e9e6e6;
+    padding: 35px 60px;
 }
