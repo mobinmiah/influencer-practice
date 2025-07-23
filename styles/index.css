@@ -282,3 +282,66 @@ footer {
     font-size: 2rem;
     color: #fff;
 }
+
+
+
+
+/* responsive media query */
+
+/* small devices */
+
+@media screen and (max-width: 576px) {
+    header {
+        margin: 10px;
+    }
+
+    nav {
+        justify-content: space-around;
+    }
+
+    nav .brand {
+        font-size: 1.5rem;
+    }
+
+    nav .mobile-bar,
+    .mobile-cart {
+        display: block;
+        font-size: 1.5rem;
+        color: var(--text-primary-color);
+    }
+
+    nav .nav-links {
+        display: none;
+    }
+
+    .hero-container {
+        flex-direction: column;
+    }
+
+    .hero-content {
+        text-align: center;
+        margin-bottom: 30px;
+    }
+    .hero-img {
+        max-width: 400px;
+        background-size: cover;
+    }
+    .sponsors{
+        max-width: 400px;
+        grid-template-columns: repeat(2, 1fr);
+        gap: 30px;
+    }
+    .collection-container{
+        grid-template-columns: repeat(1, 1fr);
+    }
+    .featured-container{
+        flex-direction: column;
+    }
+    footer{
+        justify-content: center;
+    }
+    .footer-container ul{
+        gap: 50px;
+    }
+}
+
